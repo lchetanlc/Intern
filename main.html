@@ -526,6 +526,27 @@ border-radius: 100px;
         .rights {
             font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
         }
+        
+         #img1:hover{
+transition: ease-in-out opacity 1s ;
+opacity: 0;
+        }
+        #img2:hover{
+            transition: 2s ease-in-out;
+            opacity: 0;
+        }
+        #img3:hover{
+            -webkit-transition: opacity 1s ease-in-out;
+
+  opacity: 0;
+        }
+            
+        
+        #img4:hover{
+            transition: ease-in-out opacity 1s ;
+            opacity: 0;
+
+        }
     </style>
 </head>
 
@@ -622,10 +643,10 @@ border-radius: 100px;
             knowledge, leadership and expertise to maximize the potential of your people.</h2>
 
         <span class="imgs">
-            <img src="1.png">
-            <img src="2.png">
-            <img src="3.png">
-            <img src="4.png">
+            <img id="img1" src="1.png">
+            <img id="img2" src="2.png">
+            <img id="img3" src="3.png">
+            <img id="img4" src="4.png">
         </span>
     </div>
     <hr id="hr1">
